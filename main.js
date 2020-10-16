@@ -1,9 +1,8 @@
 console.log("funziona js");
 
 // esercizio 1
-// L’utente inserisce due numeri in successione, con due prompt.
-// Il software stampa il maggiore.
-
+/* L’utente inserisce due numeri in successione, con due prompt.
+Il software stampa il maggiore. */
 
 // var n1, n2;
 
@@ -22,8 +21,8 @@ console.log("funziona js");
 
 
 // esercizio 2
-// L’utente inserisce due parole in successione, con due prompt.
-// Il software stampa una stringa contenente prima la parola più corta, uno spazio e poi la parola più lunga.
+/* L’utente inserisce due parole in successione, con due prompt.
+Il software stampa una stringa contenente prima la parola più corta, uno spazio e poi la parola  più lunga.*/
 
 // var stringa1, stringa2, stringaNuova;
 // stringa1 = prompt("inserisci la tua stringa: ");
@@ -45,9 +44,9 @@ console.log("funziona js");
 
 
 // esercizio 3
-// Il software deve chiedere per 5 volte all’utente di inserire un numero.
-// Il programma stampa la somma di tutti i numeri inseriti.
-// Esegui questo programma con il for.
+/* Il software deve chiedere per 5 volte all’utente di inserire un numero.
+Il programma stampa la somma di tutti i numeri inseriti.
+Esegui questo programma con il for. */
 
 
 // var somma = 0;
@@ -61,7 +60,16 @@ console.log("funziona js");
 
 // console.log(somma);
 
+
+
+
+
+
 //esercizio 4
+/* In un array sono contenuti i nomi degli invitati alla festa del grande Gatsby (Paolo, Fabio, Lorenzo)
+Chiedi all’utente il suo nome
+Comunicagli se può partecipare o no alla festa. */
+
 var invitato = ["paolo", "fabio", "lorenzo"];
 var utente;
 var utenteValid = false;
@@ -84,6 +92,10 @@ if(utenteValid == true){
 
 
 //esercizio 5
+/* Crea un array vuoto.
+ Chiedi per 6 volte all’utente di inserire un numero
+ Se è dispari inseriscilo nell’array */
+ 
 // var arrayDispari = [];
 // var numero;
 
