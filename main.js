@@ -76,9 +76,9 @@ for(var i = 0; i < invitato.length; i++){
 // gestisco output prima lettera in MAIUsc anche se do' input prima letter min
 sottostringa = utente.substring(1, utente.length );
 if(utenteValid == true){
-    console.log(utente.charAt(0).toUpperCase() + sottostringa + " è stato invitato alla festa.");
+    console.log(utente.charAt(0).toUpperCase() + sottostringa + " è stato/a invitato/a alla festa.");
 }else{
-    console.log(utente.charAt().toUpperCase() + sottostringa + " non è stato invitato alla festa.");
+    console.log(utente.charAt().toUpperCase() + sottostringa + " non è stato/a invitato/a alla festa.");
 }
 
 
